@@ -57,7 +57,7 @@ const Portfolio = () => {
                             key={index}
                             className="flex flex-col gap-4 cursor-pointer"
                         >
-                            <a href={item.url}>
+                            <a href={item.url} target="_blank">
 
                                 <div className="bg-black rounded-[20px] aspect-video overflow-hidden">
                                     <img
