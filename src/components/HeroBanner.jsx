@@ -7,6 +7,8 @@ import externalLinkIcon from "../assets/external-link-icon.png";
 import gmailIcon from "../assets/email-icon.png";
 import linkedin from "../assets/linkedin-icon.png"
 import github from "../assets/github-icon.png"
+import cv from "../assets/CV.pdf"
+import hoja from "../assets/hoja.png"
 import { scrollTo } from "../helper";
 import { useFollowPointer } from "./useFollowPointer";
 
@@ -56,6 +58,11 @@ const HeroBanner = () => {
                             <a href="https://github.com/SandroMalca" target="_blank">
                                 <img src={github} alt="" className="w-[18px]" />
                             </a>                                                        
+                        </div>
+                        <div className="w-[35px] h-[35px] rounded-full bg-[#ffffff] flex justify-center items-center">
+                        <a href={cv} download>
+                                <img src={hoja} alt="" className="w-[18px]" />
+                            </a> 
                         </div>
                         
             

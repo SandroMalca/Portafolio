@@ -4,6 +4,8 @@ import Wrapper from "./Wrapper";
 import gmailIcon from "../assets/email-icon.png";
 import linkedin from "../assets/linkedin-icon.png"
 import github from "../assets/github-icon.png"
+import cv from "../assets/CV.pdf"
+import hoja from "../assets/hoja.png"
 import { scrollTo } from "../helper";
 
 const Footer = () => {
@@ -30,6 +32,12 @@ const Footer = () => {
                                 <img src={github} alt="" className="w-[18px]" />
                             </div>
                         </a>
+                        <a href={cv} download>
+                            <div className="w-[35px] h-[35px] rounded-full bg-[#rgb(123, 118, 118)] flex justify-center items-center">                        
+                                <img src={hoja} alt="" className="w-[18px]" />
+                           </div> 
+                        </a> 
+                        
                     </div>
                     <ul className="flex 2xl:text-[20px] gap-5 md:gap-8">
                         <li
