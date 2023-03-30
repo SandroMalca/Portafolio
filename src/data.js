@@ -24,7 +24,7 @@ export const projects = [
     {
         name: "CapaciTechKids",
         image: p2,
-        url:"https://capacitechkids-production-fe31.up.railway.app",
+        url:"https://capacitechkids-production-dff9.up.railway.app",
         tags: ["dashboard", "responsive","desktop"],
     },
     {
