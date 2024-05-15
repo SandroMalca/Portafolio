@@ -56,6 +56,7 @@ const Skills = () => {
                     <SkillIcon path={sk9} />
                     <SkillIcon path={sk10} />
                     <SkillIcon path={sk11} />
+                    <SkillIcon path={sk12} />
                 </Div>
                 {/* SKILL ICONS END */}
 
@@ -68,10 +69,11 @@ const Skills = () => {
                             title="Front End Development"
                             data={[
                                 "React",
+                                "Astro",
                                 "Redux",
                                 "CSS",
                                 "HTML",
-                                "Javascript",
+                                "Javascript"
                             ]}
                         />
                         <Service

@@ -24,7 +24,7 @@ export const projects = [
     {
         name: "CapaciTechKids",
         image: p2,
-        url:"https://capacitechkids-production-fe31.up.railway.app",
+        url:"https://youtu.be/EzXp-G3zEt0",
         tags: ["dashboard", "responsive","desktop"],
     },
     {
@@ -32,6 +32,18 @@ export const projects = [
         image: p1,
         url:"https://memory-cards-five.vercel.app",
         tags: ["desktop"],
+    },
+    {
+        name: "Info SpaceX",
+        image: p3,
+        url:"https://main--info-spacex.netlify.app",
+        tags: ["desktop","responsive"],
+    },
+    {
+        name: "Digital Garage Agency",
+        image: p3,
+        url:"https://digitalgarageagency.netlify.app",
+        tags: ["desktop","responsive"],
     },
 ];
 
