@@ -3,49 +3,31 @@ import p2 from "./assets/project-2.png";
 import p3 from "./assets/project-3.png";
 import p4 from "./assets/project-4.png";
 
-export const filters = [
-    {
-        name: "Todos",
-        id: "all",
-    },
-    {
-        name: "Dashboard",
-        id: "dashboard",
-    },
-    {
-        name: "Web Responsive",
-        id: "responsive",
-    },
-    {
-        name: "Desktop",
-        id: "desktop",
-    },
-];
 
 export const projects = [
     {
         name: "CapaciTechKids",
         image: p2,
         url:"https://youtu.be/EzXp-G3zEt0",
-        tags: ["dashboard", "responsive","desktop"],
+       
     },
     {
         name: "Memory Cards",
         image: p1,
         url:"https://memory-cards-five.vercel.app",
-        tags: ["desktop"],
+      
     },
     {
         name: "Info SpaceX",
         image: p3,
         url:"https://main--info-spacex.netlify.app",
-        tags: ["desktop","responsive"],
+       
     },
     {
         name: "Digital Garage Agency",
         image: p4,
         url:"https://digitalgarageagency.netlify.app",
-        tags: ["desktop","responsive"],
+        
     },
 ];
 

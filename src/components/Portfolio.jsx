@@ -1,22 +1,12 @@
 import React, { useState } from "react";
 
-import { projects, filters } from "../data";
+import { projects } from "../data";
 import Div from "./Div";
 
 const Portfolio = () => {
-    const [selectedTag, setSelectedTag] = useState("all");
     const [projectData, setProjectData] = useState(projects);
 
-    const filterHandler = (tag) => {
-        setSelectedTag(tag);
-        let filteredProjects = [];
-        if (tag === "all") {
-            filteredProjects = projects;
-        } else {
-            filteredProjects = projects.filter((p) => p.tags.includes(tag));
-        }
-        setProjectData(filteredProjects);
-    };
+   
 
     return (
         <div id="work" className="mt-10 relative">
@@ -33,24 +23,14 @@ const Portfolio = () => {
 
             {/* FILTER TAGS START */}
             <Div className="flex justify-start md:justify-center gap-[10px] mb-[50px] overflow-auto">
-                {filters.map((item, index) => (
-                    <div
-                        key={index}
-                        className={`bg-[#252525] rounded-lg py-[10px] px-[17px] text-[16px] 2xl:text-[20px] leading-[24px] 2xl:leading-[32px] cursor-pointer whitespace-nowrap ${
-                            selectedTag === item.id
-                                ? "bg-[#EFB946] text-black"
-                                : ""
-                        }`}
-                        onClick={() => filterHandler(item.id)}
-                    >
-                        {item.name}
-                    </div>
-                ))}
+               
+            {projectData.name}
+            
             </Div>
             {/* FILTER TAGS START */}
 
             {/* PROJECTS GRID START */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                 {projectData.map((item, index) => {
                     return (
                         <Div
