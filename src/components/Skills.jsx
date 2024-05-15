@@ -20,6 +20,7 @@ import sk8 from "../assets/sk-8.png";
 import sk9 from "../assets/sk-9.png";
 import sk10 from "../assets/sk-10.png";
 import sk11 from "../assets/sk-11.png";
+import sk12 from "../assets/sk-12.svg";
 import pattern from "../assets/heading-pattern.png";
 import pe1 from "../assets/sec-3-p-e-1.png";
 import pe2 from "../assets/sec-3-p-e-2.png";
