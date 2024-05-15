@@ -41,7 +41,7 @@ export const projects = [
     },
     {
         name: "Digital Garage Agency",
-        image: p3,
+        image: p4,
         url:"https://digitalgarageagency.netlify.app",
         tags: ["desktop","responsive"],
     },
